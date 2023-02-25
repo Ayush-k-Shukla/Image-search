@@ -23,8 +23,10 @@ const HomePage = ({ imageData, theme, getImagesBySearchQuery }: Proptypes) => {
 
   const handleSearch = ({ name, value }: CustomInputChangeFuncInterface) => {
     setSearchQuery(value || '');
-    debouncedApiCall();
   };
+  useEffect(() => {
+    debouncedApiCall();
+  }, [searchQuery]);
 
   const handleApiCalltoSearch = () => {
     getImagesBySearchQuery(searchQuery);
