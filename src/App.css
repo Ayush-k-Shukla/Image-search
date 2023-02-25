@@ -1,0 +1,145 @@
+.wrapper {
+  background-color: white;
+}
+.logo-light {
+  font-family: 'Pattaya';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+.header-light {
+  background-color: white;
+}
+
+.modal-light {
+  background-color: white;
+}
+
+.primary-h1-light {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-h2-light {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #c4c4c4;
+}
+.primary-h3-light {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+.primary-h4-light {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a7a7a7;
+}
+.primary-h4-semi-light {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: hsl(0, 0%, 31%);
+}
+.primary-h5-light {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+}
+/*Dark theme classes*/
+
+.modal-dark {
+  background-color: #232323;
+}
+
+.logo-dark {
+  font-family: 'Pattaya';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.wrapper-dark {
+  background-color: #141414 !important;
+}
+.header-dark {
+  background-color: #232323 !important;
+}
+
+.primary-h1-dark {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-h2-dark {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #c4c4c4;
+}
+.primary-h3-dark {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e5e5e5;
+}
+
+.primary-h4-dark {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e5e5e5;
+}
+.primary-h4-semi-dark {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a7a7a7;
+}
+.primary-h5-dark {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e5e5e5;
+}

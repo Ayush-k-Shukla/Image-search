@@ -1,0 +1,46 @@
+.cardWrapper {
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  background-size: cover;
+  border: 1px solid #e5e5e5;
+  min-height: 300px;
+  max-height: fit-content;
+  cursor: pointer;
+
+  img {
+    object-fit: cover;
+    height: 200px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+
+    .leftcontent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+
+      .userpic {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .userInfo {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .rightcontent {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+  }
+}
