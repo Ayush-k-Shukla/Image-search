@@ -1,12 +1,18 @@
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
+
 import styles from './index.module.scss';
 
-const Header = () => {
-  return (
-    <div className={styles.wrapper}>
-      <img />
-      <p>Loading some awesome Images...</p>
-    </div>
-  );
-};
+interface PropTypes {
+  open: boolean;
+}
 
-export default Header;
+function CustomFullScreenLoader({ open }: PropTypes) {
+  return (
+    <Backdrop open={open} className={styles.container}>
+      <CircularProgress className={styles.progress} />
+    </Backdrop>
+  );
+}
+
+export default CustomFullScreenLoader;

@@ -76,6 +76,7 @@ const HomePage = ({ imageData, theme, getImagesBySearchQuery }: Proptypes) => {
             imageInfo={imageinfo}
             onCardClick={openModal}
             theme={theme}
+            key={imageinfo.id}
           />
         ))}
       </div>
